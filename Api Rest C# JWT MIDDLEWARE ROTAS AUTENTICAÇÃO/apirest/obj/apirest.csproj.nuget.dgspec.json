@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\estudo desafio junior\\logica de programacao\\C-API-REST-JWT-MIDDLEWARE-AUTHENTICATION\\Api Rest C# JWT MIDDLEWARE ROTAS AUTENTICAÇÃO\\apirest\\apirest.csproj": {}
+  },
+  "projects": {
+    "E:\\estudo desafio junior\\logica de programacao\\C-API-REST-JWT-MIDDLEWARE-AUTHENTICATION\\Api Rest C# JWT MIDDLEWARE ROTAS AUTENTICAÇÃO\\apirest\\apirest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\estudo desafio junior\\logica de programacao\\C-API-REST-JWT-MIDDLEWARE-AUTHENTICATION\\Api Rest C# JWT MIDDLEWARE ROTAS AUTENTICAÇÃO\\apirest\\apirest.csproj",
+        "projectName": "apirest",
+        "projectPath": "E:\\estudo desafio junior\\logica de programacao\\C-API-REST-JWT-MIDDLEWARE-AUTHENTICATION\\Api Rest C# JWT MIDDLEWARE ROTAS AUTENTICAÇÃO\\apirest\\apirest.csproj",
+        "packagesPath": "C:\\Users\\VINIR\\.nuget\\packages\\",
+        "outputPath": "E:\\estudo desafio junior\\logica de programacao\\C-API-REST-JWT-MIDDLEWARE-AUTHENTICATION\\Api Rest C# JWT MIDDLEWARE ROTAS AUTENTICAÇÃO\\apirest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VINIR\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
